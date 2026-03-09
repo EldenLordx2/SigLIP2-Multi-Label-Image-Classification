@@ -121,18 +121,18 @@ PYTHONPATH=./src python -m siglip2_multilabel.predict --ckpt outputs/best_model.
 
 在相同训练数据、验证集和训练参数下：
 
-  Model                      mAP
-  -------------------------- -----------
-  SigLIP2-base-patch16-224   62.67
-  CLIP-ViT-B/16 (PaddleX)    **67.34**
+| Model | mAP |
+|------|------|
+| CLIP-ViT-B/16 (PaddleX) | 62.67 |
+| SigLIP2-base-patch16-224 | **67.34** |
 
 验证集（3.4万张图片）：
 
-  Metric     SigLIP2   CLIP
-  ---------- --------- -----------
-  Accuracy   88.02     **93.46**
-  Recall     68.47     **74.80**
-  F1         77.02     **83.10**
+| Metric | CLIP | SigLIP2 |
+|------|------|------|
+| Accuracy | 88.02 | **93.46** |
+| Recall | 68.47 | **74.80** |
+| F1 | 77.02 | **83.10** |
 
 ------------------------------------------------------------------------
 
