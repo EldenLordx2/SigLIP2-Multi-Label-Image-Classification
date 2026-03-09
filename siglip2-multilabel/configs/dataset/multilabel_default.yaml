@@ -1,0 +1,13 @@
+dataset:
+  format: txt
+
+  train_txt: train.txt
+  val_txt: val.txt
+  labels_txt: labels.txt
+
+image:
+  normalize: imagenet
+  interpolation: bicubic
+
+loader:
+  num_workers: 8
