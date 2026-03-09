@@ -1,2 +1,0 @@
-image/test1.jpg 0,1,0
-image/test2.jpg 0,0,1
